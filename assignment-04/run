@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo 'Testing...'
+
+java -jar junit-platform-console-standalone-1.11.3.jar -cp bin --scan-class-path
+
+echo '\nProblem 1 Output:\n'
+
+java -cp bin com.jcanunwah.cs5800.assignment04.solution01.Main
+
+echo '\nProblem 2 Output:\n'
+
+java -cp bin com.jcanunwah.cs5800.assignment04.solution02.Main
