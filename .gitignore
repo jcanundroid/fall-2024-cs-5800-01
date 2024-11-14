@@ -3,3 +3,4 @@
 !assignment-04/build
 !assignment-04/run
 !*.jar
+!quiz-01/*
