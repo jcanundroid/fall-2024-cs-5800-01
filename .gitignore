@@ -5,3 +5,4 @@
 !*.jar
 !quiz-01/*.java
 !quiz-02/*.java
+!final/*.*
